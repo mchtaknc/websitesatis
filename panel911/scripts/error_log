@@ -1,0 +1,39 @@
+[26-Nov-2021 22:27:15 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in /home/sitedeposu/public_html/panel911/scripts/themes.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/sitedeposu/public_html/panel911/scripts/themes.php on line 145
+[26-Nov-2021 22:27:26 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in /home/sitedeposu/public_html/panel911/scripts/themes.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/sitedeposu/public_html/panel911/scripts/themes.php on line 145
+[23-Jan-2022 21:54:40 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sitedepo_db.ticket_repllies' doesn't exist in /home/sitedeposu/public_html/panel911/scripts/tickets.php:102
+Stack trace:
+#0 /home/sitedeposu/public_html/panel911/scripts/tickets.php(102): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sitedeposu/public_html/panel911/scripts/tickets.php on line 102
+[25-Jan-2022 19:54:09 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sitedepo_db.blog_Categories' doesn't exist in /home/sitedeposu/public_html/panel911/scripts/blog.php:14
+Stack trace:
+#0 /home/sitedeposu/public_html/panel911/scripts/blog.php(14): PDO->query('select *, blog....')
+#1 {main}
+  thrown in /home/sitedeposu/public_html/panel911/scripts/blog.php on line 14
+[25-Jan-2022 20:23:30 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/sitedeposu/public_html/panel911/scripts/blog.php:286
+Stack trace:
+#0 /home/sitedeposu/public_html/panel911/scripts/blog.php(286): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sitedeposu/public_html/panel911/scripts/blog.php on line 286
+[25-Jan-2022 20:24:07 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/sitedeposu/public_html/panel911/scripts/blog.php:252
+Stack trace:
+#0 {main}
+  thrown in /home/sitedeposu/public_html/panel911/scripts/blog.php on line 252
+[25-Jan-2022 20:29:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home/sitedeposu/public_html/panel911/scripts/blog.php:341
+Stack trace:
+#0 {main}
+  thrown in /home/sitedeposu/public_html/panel911/scripts/blog.php on line 341
+[25-Jan-2022 20:29:08 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home/sitedeposu/public_html/panel911/scripts/blog.php:341
+Stack trace:
+#0 {main}
+  thrown in /home/sitedeposu/public_html/panel911/scripts/blog.php on line 341
+[25-Jan-2022 20:30:38 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home/sitedeposu/public_html/panel911/scripts/blog.php:347
+Stack trace:
+#0 {main}
+  thrown in /home/sitedeposu/public_html/panel911/scripts/blog.php on line 347

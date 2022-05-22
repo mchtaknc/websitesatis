@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.2",
+        "cocur/slugify": "^4.0",
+        "intervention/image": "^2.5",
+      "ext-mysqli": "*",
+      "ext-curl": "*",
+      "ext-json": "*",
+      "ext-fileinfo": "*",
+        "iyzico/iyzipay-php": "^2.0"
+    }
+}

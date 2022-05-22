@@ -1,0 +1,169 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+.specifications .check,
+.theme-specs .check {
+    display: block;
+    width: 100%;
+    background: #ddd;
+    min-height: 250px;
+    padding: 10px;
+}
+
+.specifications .check span,
+.theme-specs .check span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.remove-spec {
+    cursor: pointer;
+}
+
+table.form {
+    background-color: #fff;
+    margin: 0 0 5px 0;
+    padding: 0;
+    border-collapse: separate;
+    border-spacing: 2px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    min-width: 500px;
+}
+table.form tr td:nth-child(1) {
+    background-color: #fff;
+    text-align: left;
+    vertical-align: middle;
+    width: 150px;
+}
+table.form tr td:nth-child(2) {
+    background-color: #efefef;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.preview-area {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.preview-area .control-image {
+    position: relative;
+    box-sizing: border-box;
+    background-clip: padding-box;
+}
+.preview-area .control-image a.remove-gallery-image,.preview-area .control-image a.remove-listing-image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    transition: all 0.3s ease;
+}
+.preview-area .control-image a.main-gallery-image,.preview-area .control-image a.main-listing-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    transition: all 0.3s ease;
+}
+.preview-area .control-image a:hover {
+    background-color: #d8d8d8;
+}
+.preview-area .control-image a i {
+    display: block;
+}
+.preview-area img {
+    object-fit: cover;
+    height: 100px;
+}
+.video-lists {
+    display: flex;
+    flex-wrap: wrap;
+}
+.video-lists .control-video {
+    position: relative;
+}
+.video-lists .control-video .remove-gallery-video {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    transition: all 0.3s ease;
+}
+.video-lists .control-video a:hover {
+    background-color: #d8d8d8;
+}
+.video-lists .control-video a i {
+    display: block;
+}
+.video-lists img {
+    object-fit: cover;
+    height: 100px;
+}
+.takvim-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.takvim-ay {
+    display: block;
+    flex: 1 0 calc(16.666% - 10px);
+    width: 100%;
+    text-align: center;
+    border: 1px solid #cccccc;
+    line-height: 20px;
+    height: calc(180px + 14px);
+    background: #f6f6f6;
+    margin:5px;
+}
+
+.takvim-gun {
+    float: left;
+    width: calc(14.28% - 2px);
+    font-size: 0.7em;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.takvim-ay h2 {
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.takvim-red {
+    background: #9b060b;
+    color: #FFFFFF;
+}
+
+.takvim-green {
+    background: #1C7300;
+    color: #FFFFFF;
+}
+
+.takvim-orange {
+    background: #ff9000;
+    color: #FFFFFF;
+}
+
+.takvim-gun.round:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+@media screen and (max-width: 1024px) {
+    .takvim-ay {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+}

@@ -1,0 +1,31 @@
+[06-Dec-2021 22:01:39 Europe/Istanbul] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/sitedeposu/public_html/scripts/register.php on line 15
+[06-Dec-2021 22:01:39 Europe/Istanbul] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sitedeposu/public_html/scripts/register.php on line 41
+[06-Dec-2021 22:32:33 Europe/Istanbul] PHP Notice:  Undefined property: PDOStatement::$customer_id in /home/sitedeposu/public_html/scripts/register.php on line 80
+[06-Dec-2021 22:32:33 Europe/Istanbul] PHP Notice:  Undefined property: PDOStatement::$email in /home/sitedeposu/public_html/scripts/register.php on line 81
+[06-Dec-2021 22:32:33 Europe/Istanbul] PHP Notice:  Undefined property: PDOStatement::$firstname in /home/sitedeposu/public_html/scripts/register.php on line 82
+[06-Dec-2021 22:32:33 Europe/Istanbul] PHP Notice:  Undefined property: PDOStatement::$lastname in /home/sitedeposu/public_html/scripts/register.php on line 83
+[11-Dec-2021 19:47:39 Europe/Istanbul] PHP Notice:  Undefined variable: hash in /home/sitedeposu/public_html/scripts/login.php on line 16
+[11-Dec-2021 19:47:39 Europe/Istanbul] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/sitedeposu/public_html/scripts/login.php on line 16
+[11-Dec-2021 19:47:39 Europe/Istanbul] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/sitedeposu/public_html/scripts/login.php on line 16
+[15-Jan-2022 13:35:04 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/sitedeposu/public_html/scripts/user.php:103
+Stack trace:
+#0 /home/sitedeposu/public_html/scripts/user.php(103): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/sitedeposu/public_html/scripts/user.php on line 103
+[15-Jan-2022 13:36:17 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home/sitedeposu/public_html/scripts/user.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/sitedeposu/public_html/scripts/user.php on line 106
+[15-Jan-2022 13:36:44 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::rowCount() in /home/sitedeposu/public_html/scripts/user.php:106
+Stack trace:
+#0 {main}
+  thrown in /home/sitedeposu/public_html/scripts/user.php on line 106
+[15-Jan-2022 15:37:46 Europe/Istanbul] PHP Fatal error:  Uncaught Error: Call to a member function lastInsertId() on bool in /home/sitedeposu/public_html/scripts/user.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/sitedeposu/public_html/scripts/user.php on line 132
+[15-Jan-2022 16:51:07 Europe/Istanbul] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'customer_id' in 'where clause' in /home/sitedeposu/public_html/scripts/user.php:117
+Stack trace:
+#0 /home/sitedeposu/public_html/scripts/user.php(117): PDO->query('select * from t...')
+#1 {main}
+  thrown in /home/sitedeposu/public_html/scripts/user.php on line 117
