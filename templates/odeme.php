@@ -167,9 +167,9 @@ if ($_POST) {
                 ];
             }
             if ($_POST['payment_method'] == 'credit_card') {
-                $merchant_id    = "273482";
-                $merchant_key   = "6i9zWK3y6Qwn16Dg";
-                $merchant_salt  = "XWWZ6g1cK17B5sMX";
+                $merchant_id    = "";
+                $merchant_key   = "";
+                $merchant_salt  = "";
 
                 $merchant_ok_url = "https://sitedeposu.com/odeme-sonuc?type=success";
                 $merchant_fail_url = "https://sitedeposu.com/odeme-sonuc?type=failure";
